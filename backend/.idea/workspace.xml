@@ -6,8 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="bb184c95-4b41-4469-99e9-9a8d30f32b83" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/backend/users.ex" beforeDir="false" afterPath="$PROJECT_DIR$/lib/backend/users.ex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/backend_web/controllers/account_controller.ex" beforeDir="false" afterPath="$PROJECT_DIR$/lib/backend_web/controllers/account_controller.ex" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/backend_web/router.ex" beforeDir="false" afterPath="$PROJECT_DIR$/lib/backend_web/router.ex" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/backend_web/views/account_view.ex" beforeDir="false" afterPath="$PROJECT_DIR$/lib/backend_web/views/account_view.ex" afterDir="false" />
     </list>
@@ -61,7 +59,7 @@
       <workItem from="1698501189435" duration="245000" />
       <workItem from="1698502210627" duration="593000" />
       <workItem from="1698503432091" duration="2167000" />
-      <workItem from="1698506076406" duration="1947000" />
+      <workItem from="1698506076406" duration="2525000" />
     </task>
     <task id="LOCAL-00001" summary="feat: add a default_controller">
       <option name="closed" value="true" />
@@ -87,7 +85,15 @@
       <option name="project" value="LOCAL" />
       <updated>1698506865501</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="feat(backend): add create account endpoint">
+      <option name="closed" value="true" />
+      <created>1698521627945</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1698521627945</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -96,6 +102,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="feat: add a default_controller" />
     <MESSAGE value="feat(backend): add Auth with Guardian and hashed password with Bcrypt" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat(backend): add Auth with Guardian and hashed password with Bcrypt" />
+    <MESSAGE value="feat(backend): add create account endpoint" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat(backend): add create account endpoint" />
   </component>
 </project>

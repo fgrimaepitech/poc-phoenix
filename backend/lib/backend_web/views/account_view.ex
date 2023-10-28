@@ -7,7 +7,10 @@ defmodule BackendWeb.AccountView do
   end
 
   def render("show.json", %{account: account}) do
-    %{data: render_one(account, AccountView, "account.json")}
+    %{
+      id: account.id,
+      email: account.email,
+    }
   end
 
   def render("account.json", %{account: account}) do
