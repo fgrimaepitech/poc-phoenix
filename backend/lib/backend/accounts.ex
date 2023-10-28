@@ -38,6 +38,24 @@ defmodule Backend.Accounts do
   def get_account!(id), do: Repo.get!(Account, id)
 
   @doc """
+  Gets a single account by email.
+
+  ## Examples
+
+      iex> get_account_by_email!("email")
+      %Account{}
+
+      iex> get_account_by_email!("email")
+      ** (Ecto.NoResultsError)
+
+"""
+  def get_account_by_email(email) do
+    Account
+    |> where(email: ^email)
+    |> Repo.one()
+  end
+
+  @doc """
   Creates a account.
 
   ## Examples

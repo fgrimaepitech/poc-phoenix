@@ -24,6 +24,11 @@ config :logger, :console,
   format: "$time $metadata[$level] $message\n",
   metadata: [:request_id]
 
+config :backend, BackendWeb.Auth.Guardian,
+  issuer: "backend",
+  secret_key: "zbW/nh4gJvtMHCOCj1coqEzNRbLI1lQuPcBUg90r5gdo2ikrdp0uH2Q+R87dOZ+1"
+
+
 # Use Jason for JSON parsing in Phoenix
 config :phoenix, :json_library, Jason
 

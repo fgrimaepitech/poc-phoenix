@@ -5,8 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bb184c95-4b41-4469-99e9-9a8d30f32b83" name="Changes" comment="feat: add a default_controller">
+      <change afterPath="$PROJECT_DIR$/lib/backend_web/auth/guardian.ex" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mix.exs" beforeDir="false" afterPath="$PROJECT_DIR$/mix.exs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/config.exs" beforeDir="false" afterPath="$PROJECT_DIR$/config/config.exs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/backend/accounts.ex" beforeDir="false" afterPath="$PROJECT_DIR$/lib/backend/accounts.ex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/backend/accounts/account.ex" beforeDir="false" afterPath="$PROJECT_DIR$/lib/backend/accounts/account.ex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mix.lock" beforeDir="false" afterPath="$PROJECT_DIR$/mix.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,7 +43,7 @@
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;language.elixir&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;discord-project&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
@@ -57,6 +61,8 @@
       <workItem from="1698497301024" duration="2208000" />
       <workItem from="1698501189435" duration="245000" />
       <workItem from="1698502210627" duration="593000" />
+      <workItem from="1698503432091" duration="2167000" />
+      <workItem from="1698506076406" duration="663000" />
     </task>
     <task id="LOCAL-00001" summary="feat: add a default_controller">
       <option name="closed" value="true" />
@@ -66,7 +72,15 @@
       <option name="project" value="LOCAL" />
       <updated>1698497170114</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="feat: add a default_controller">
+      <option name="closed" value="true" />
+      <created>1698503502839</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1698503502840</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

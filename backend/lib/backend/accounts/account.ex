@@ -19,5 +19,12 @@ defmodule Backend.Accounts.Account do
     |> validate_format(:email, ~r/^[^\s]+@[^\s]+$/, message: "must be a valid email address")
     |> validate_length(:email, min: 6, max: 160)
     |> unique_constraint(:email)
+    |> put_password_hash()
   end
+
+  defp put_password_hash(%Ecto.Changeset{valid?: true, changes: %{hash_password: password}} = changeset) do
+    put_change(changeset, :hash_password, Bcrypt.hash_pwd_salt(password))
+  end
+
+  defp put_password_hash(changeset), do: changeset
 end
