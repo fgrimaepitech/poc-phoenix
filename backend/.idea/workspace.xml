@@ -5,87 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bb184c95-4b41-4469-99e9-9a8d30f32b83" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/lib/backend_web/controllers/default_controller.ex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/backend.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/benchee.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/benchee_json.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/circular_buffer.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/cowboy.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/cowboy.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/cowboy_telemetry.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/cowboy_telemetry.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/cowlib.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/cowlib.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/credo.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/db_connection.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/db_connection.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/decimal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/decimal.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/dialyxir.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/ecto.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/ecto.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/ecto_sql.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/ecto_sql.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/ex_doc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/excoveralls.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/expo.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/expo.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/file_system.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/floki.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/gettext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/gettext.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/hackney.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/html_entities.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/inch_ex.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/jason.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/jason.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/kadabra.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/mime.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/mime.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/myxql.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/phoenix.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/phoenix.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/phoenix_ecto.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/phoenix_ecto.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/phoenix_html.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/phoenix_live_dashboard.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/phoenix_live_reload.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/phoenix_live_view.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/phoenix_pubsub.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/phoenix_pubsub.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/plug.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/plug.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/plug_cowboy.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/plug_cowboy.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/plug_crypto.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/plug_crypto.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/postgrex.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/postgrex.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/ranch.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/ranch.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/ssl_verify_fun.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/stream_data.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/table.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/tds.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/telemetry.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/telemetry.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/telemetry_metrics.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/telemetry_metrics.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/telemetry_poller.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/telemetry_poller.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/websocket_client.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/x509.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/.babelrc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/app.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/phoenix.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/app.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/socket.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/static/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/static/images/phoenix.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/static/robots.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/webpack.config.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/config.exs" beforeDir="false" afterPath="$PROJECT_DIR$/config/config.exs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/dev.exs" beforeDir="false" afterPath="$PROJECT_DIR$/config/dev.exs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/backend_web.ex" beforeDir="false" afterPath="$PROJECT_DIR$/lib/backend_web.ex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/backend_web/controllers/page_controller.ex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/backend_web/endpoint.ex" beforeDir="false" afterPath="$PROJECT_DIR$/lib/backend_web/endpoint.ex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/backend_web/controllers/default_controller.ex" beforeDir="false" afterPath="$PROJECT_DIR$/lib/backend_web/controllers/default_controller.ex" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/backend_web/router.ex" beforeDir="false" afterPath="$PROJECT_DIR$/lib/backend_web/router.ex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/backend_web/templates/layout/app.html.eex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/backend_web/templates/page/index.html.eex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/backend_web/views/error_helpers.ex" beforeDir="false" afterPath="$PROJECT_DIR$/lib/backend_web/views/error_helpers.ex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/backend_web/views/error_view.ex" beforeDir="false" afterPath="$PROJECT_DIR$/lib/backend_web/views/error_view.ex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/backend_web/views/layout_view.ex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/backend_web/views/page_view.ex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mix.exs" beforeDir="false" afterPath="$PROJECT_DIR$/mix.exs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mix.lock" beforeDir="false" afterPath="$PROJECT_DIR$/mix.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/backend_web/controllers/page_controller_test.exs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/backend_web/views/error_view_test.exs" beforeDir="false" afterPath="$PROJECT_DIR$/test/backend_web/views/error_view_test.exs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/backend_web/views/layout_view_test.exs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/backend_web/views/page_view_test.exs" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -131,6 +53,7 @@
       <updated>1698492402821</updated>
       <workItem from="1698492404167" duration="1359000" />
       <workItem from="1698496158685" duration="14000" />
+      <workItem from="1698496311271" duration="627000" />
     </task>
     <servers />
   </component>

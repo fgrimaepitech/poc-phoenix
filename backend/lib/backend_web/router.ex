@@ -7,5 +7,6 @@ defmodule BackendWeb.Router do
 
   scope "/api", BackendWeb do
     pipe_through :api
+    get "/", DefaultController, :index
   end
 end
