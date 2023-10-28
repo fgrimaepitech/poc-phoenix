@@ -8,15 +8,16 @@
 use Mix.Config
 
 config :backend,
-  ecto_repos: [Backend.Repo]
+  ecto_repos: [Backend.Repo],
+  generators: [binary_id: true]
 
 # Configures the endpoint
 config :backend, BackendWeb.Endpoint,
   url: [host: "localhost"],
-  secret_key_base: "4/iFuJXHmwRrsdhEK89SfyL8ES9bRATMn5aPu+W2QcxgEjvavOof5IMHcMIGWswd",
-  render_errors: [view: BackendWeb.ErrorView, accepts: ~w(html json), layout: false],
+  secret_key_base: "1DLTiiH2sjRHUgCuJlnj7D1pryJkYesXPohRucZR+CMROXguRdQOboSG+/lGuOTI",
+  render_errors: [view: BackendWeb.ErrorView, accepts: ~w(json), layout: false],
   pubsub_server: Backend.PubSub,
-  live_view: [signing_salt: "GSI8Q1vA"]
+  live_view: [signing_salt: "kc80jEDK"]
 
 # Configures Elixir's Logger
 config :logger, :console,
