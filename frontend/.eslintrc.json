@@ -1,0 +1,45 @@
+{
+	"env": {
+		"browser": true,
+		"es2021": true,
+		"node": true
+	},
+	"extends": [
+		"eslint:recommended",
+		"plugin:svelte/recommended",
+		"prettier"
+	],
+	"parserOptions": {
+		"ecmaVersion": 2021,
+		"sourceType": "module"
+	},
+	"plugins": [
+		"svelte"
+	],
+	"overrides": [
+		{
+			"files": ["*.svelte"],
+			"processor": "svelte/svelte"
+		}
+	],
+	"rules": {
+		"eqeqeq": "error",
+		"no-trailing-spaces": "error",
+		"no-unused-vars": "warn",
+		"no-console": "warn",
+		"no-debugger": "warn",
+		"semi": ["error", "always"],
+		"quotes": ["error", "single"],
+		"curly": "error",
+		"brace-style": ["error", "1tbs"],
+		"arrow-parens": ["error", "always"],
+		"no-multiple-empty-lines": ["error", { "max": 2, "maxEOF": 0 }]
+	},
+	"settings": {
+		"import/resolver": {
+			"node": {
+				"extensions": [".js", ".svelte"]
+			}
+		}
+	}
+}

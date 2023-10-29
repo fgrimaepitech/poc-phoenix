@@ -4,10 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bb184c95-4b41-4469-99e9-9a8d30f32b83" name="Changes" comment="">
+    <list default="true" id="bb184c95-4b41-4469-99e9-9a8d30f32b83" name="Changes" comment="feat(backend): add endpoint getting account by id">
+      <change afterPath="$PROJECT_DIR$/../frontend/.eslintrc.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/lib/components/Button/Button.svelte" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/lib/components/NavBar/NavBar.svelte" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/test.exs" beforeDir="false" afterPath="$PROJECT_DIR$/config/test.exs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/backend/accounts/account.ex" beforeDir="false" afterPath="$PROJECT_DIR$/lib/backend/accounts/account.ex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/.eslintrc.cjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/.prettierrc" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/.prettierrc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/app.html" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/app.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/routes/+page.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/routes/+page.svelte" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,6 +66,7 @@
       <workItem from="1698503432091" duration="2167000" />
       <workItem from="1698506076406" duration="3735000" />
       <workItem from="1698523826899" duration="1680000" />
+      <workItem from="1698590679953" duration="1008000" />
     </task>
     <task id="LOCAL-00001" summary="feat: add a default_controller">
       <option name="closed" value="true" />
