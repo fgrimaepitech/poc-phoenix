@@ -26,5 +26,7 @@ For the postgres Postgresation, you can choose yourself a name and password, but
 After that you can just execute the command bellow:
 
 ```
+mix deps.get
+mix ecto.setup
 mix phx.server
 ```
