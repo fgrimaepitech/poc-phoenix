@@ -6,8 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="bb184c95-4b41-4469-99e9-9a8d30f32b83" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/backend_web/router.ex" beforeDir="false" afterPath="$PROJECT_DIR$/lib/backend_web/router.ex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/backend_web/views/account_view.ex" beforeDir="false" afterPath="$PROJECT_DIR$/lib/backend_web/views/account_view.ex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/test.exs" beforeDir="false" afterPath="$PROJECT_DIR$/config/test.exs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/backend/accounts/account.ex" beforeDir="false" afterPath="$PROJECT_DIR$/lib/backend/accounts/account.ex" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,7 +40,7 @@
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;discord-project&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;discord-application&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
@@ -59,7 +59,8 @@
       <workItem from="1698501189435" duration="245000" />
       <workItem from="1698502210627" duration="593000" />
       <workItem from="1698503432091" duration="2167000" />
-      <workItem from="1698506076406" duration="2525000" />
+      <workItem from="1698506076406" duration="3735000" />
+      <workItem from="1698523826899" duration="1680000" />
     </task>
     <task id="LOCAL-00001" summary="feat: add a default_controller">
       <option name="closed" value="true" />
@@ -93,7 +94,15 @@
       <option name="project" value="LOCAL" />
       <updated>1698521627945</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="feat(backend): add endpoint getting account by id">
+      <option name="closed" value="true" />
+      <created>1698522208333</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1698522208333</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -103,6 +112,7 @@
     <MESSAGE value="feat: add a default_controller" />
     <MESSAGE value="feat(backend): add Auth with Guardian and hashed password with Bcrypt" />
     <MESSAGE value="feat(backend): add create account endpoint" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat(backend): add create account endpoint" />
+    <MESSAGE value="feat(backend): add endpoint getting account by id" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat(backend): add endpoint getting account by id" />
   </component>
 </project>

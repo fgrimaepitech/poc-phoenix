@@ -16,9 +16,9 @@ defmodule Backend.Accounts.Account do
     account
     |> cast(attrs, [:email, :hash_password])
     |> validate_required([:email, :hash_password])
-    |> validate_format(:email, ~r/^[^\s]+@[^\s]+$/, message: "must be a valid email address")
+    |> validate_format(:email, ~r/^[^\s]+@[^\s]+.+[^\s]+$/, message: "must be a valid email address")
     |> validate_length(:email, min: 6, max: 160)
-    |> unique_constraint(:email)
+    |> unique_constraint(:email, message: "This email is already used")
     |> put_password_hash()
   end
 
